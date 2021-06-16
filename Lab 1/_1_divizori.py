@@ -18,7 +18,10 @@ def divizori ():
         b = int(input())
         a = cmmdc(a, b)
 
-    print("Cel mai mare divizor comun este " + str(a))
+    text = f"Cel mai mare divizor comun este {a}"
+
+    print(text)
+    #print("Cel mai mare divizor comun este %(a)d" % {"a": a})
 
     return
 
