@@ -21,3 +21,5 @@ array_of_strings.append(for_converting.lower())
 converted = ''.join(array_of_strings)
 
 print(converted)
+
+#trebuie sa o refac
