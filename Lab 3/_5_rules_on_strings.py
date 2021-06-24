@@ -1,5 +1,5 @@
 def aply_rule(rule, string) :
-    return True
+    return (string.startswith(rule[1]) and string.find(rule[2]) and string.endswith(rule[3]))
 
 def validate_rules (rules, strings) :
 
